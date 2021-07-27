@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    height: 100vh;
+    background-color: #306b34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    flex-basis: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #000;
+    color:#fff;
+    outline:none;
+    border-radius: 7px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+
